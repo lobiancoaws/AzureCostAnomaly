@@ -48,7 +48,7 @@ python anomalyReport.py <subscription_prefix> <analysis_type> <grouping_key> [--
   ```
 - Analisar custos por grupo e salvar o resultado em um arquivo:
   ```bash
-  python anomalyReport.py "MinhaSub" group Departamento --save
+  python anomalyReport.py "MinhaSub" tag Departamento --save
   ```
 
 ## 📌 Parâmetros
